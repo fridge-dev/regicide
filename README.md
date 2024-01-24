@@ -55,15 +55,15 @@ If enemy is defeated...
 
 ### Suit Powers
 
-1. ♥️: Heal X. Move X random cards from discard pile to bottom of Tavern Deck.
-1*. Random cards are chosen by blindly shuffling the discard pile and choosing from the top.
-1*. Combo/companion: This is always done before ♦️.
-1. ♦️: Draw X. Players collectively draw X cards starting with the current player and moving in clockwise order.
-1*. Skip players with maximum hand size.
-1*. There is no penalty for emptying the Tavern deck.
-1. ♣️: Deal double damage during Step 3.
-1. ♠️: Shield +X. Add X to the players' cumulative shield for the current enemy.
-1*. Shield is reset to 0 when enemy is defeated.
+* ♥️: Heal X. Move X random cards from discard pile to bottom of Tavern Deck.
+    * Random cards are chosen by blindly shuffling the discard pile and choosing from the top.
+    * Combo/companion: This is always done before ♦️.
+* ♦️: Draw X. Players collectively draw X cards starting with the current player and moving in clockwise order.
+    * Skip players with maximum hand size.
+    * There is no penalty for emptying the Tavern deck.
+* ♣️: Deal double damage during Step 3.
+* ♠️: Shield +X. Add X to the players' cumulative shield for the current enemy.
+    * Shield is reset to 0 when enemy is defeated.
 
 ### Companion
 
@@ -93,5 +93,5 @@ Note: Attack means both the amount of damage the enemy does to current player in
 
 * Immunity: Suit Powers of cards with the same suit as the enemy are not resolved.
 * Jester: When played, cancels this enemy's immunity. Current player instantly ends turn and chooses the next player.
-** Communication rules are temporarily changed, allowing players to _generally_ express desire/reluctance to go next.
+    * Communication rules are temporarily changed, allowing players to _generally_ express desire/reluctance to go next.
 * ♠️ clarification: Shield value is always updated, it is just not used to decrease enemy damage in step 4.
