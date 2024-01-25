@@ -60,7 +60,7 @@ If enemy is defeated...
     * Combo/companion: This is always done before ♦️.
 * ♦️: Draw X. Players collectively draw X cards starting with the current player and moving in clockwise order.
     * Skip players with maximum hand size.
-    * There is no penalty for emptying the Tavern deck.
+    * There is no penalty for failing to draw from an empty the Tavern deck.
 * ♣️: Deal double damage during Step 3.
 * ♠️: Shield +X. Add X to the players' cumulative shield for the current enemy.
     * Shield is reset to 0 when enemy is defeated.
@@ -87,7 +87,7 @@ Example sets (suit agnostic): pair of 2s, pair of 3s, pair of 4s, pair of 5s, tr
 |Queen|15|30|
 |King|20|40|
 
-Note: Attack means both the amount of damage the enemy does to current player in step 4 and the value of the card when a player plays it.
+Note: Attack means both the amount of damage the enemy does to current player in step 4 and the value of the card when a player plays it/discards it for taking damage.
 
 ### Enemy Immunity and Jester card
 
