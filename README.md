@@ -20,6 +20,13 @@ This is meant as a summarized refresher of the rules. If you're not familiar, re
 |3|1|6|
 |4|2|5|
 
+## Win and Loss Conditions
+### The team wins if...
+All face cards (Jacks, Queens, Kings) are defeated
+
+### The team loses if...
+A team member is not able to dispose enough cards to cover the damage dealt to them by an opposing Jack, Queen, or King
+
 ## Play a turn
 
 Play moves player to player in clockwise order. On your turn...
